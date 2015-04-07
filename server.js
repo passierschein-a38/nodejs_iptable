@@ -6,6 +6,9 @@ var server = http.createServer(function(request, response) {
     // process HTTP request. Since we're writing just WebSockets server
     // we don't have to implement anything.
 });
+
+console.log("server listening on %d", port)
+
 server.listen(port, function() { });
 
 // create the server
